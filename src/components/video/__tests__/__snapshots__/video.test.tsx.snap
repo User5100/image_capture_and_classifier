@@ -19,5 +19,8 @@ exports[`Video renders correctly 1`] = `
   >
     Open Camera
   </button>
+  <button>
+    Take photo
+  </button>
 </section>
 `;

@@ -24,4 +24,9 @@ describe("Video", () => {
     const { getByTestId } = render(<UI />);
     expect(getByTestId("video-button")).toHaveTextContent("Open Camera");
   });
+
+  test("Displays the 'Take Photo' video button", () => {
+    const { getByText } = render(<UI />);
+    expect(getByText(/Take Photo/i)).toBeTruthy();
+  });
 });

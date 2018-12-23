@@ -20,6 +20,7 @@ function UI() {
             <button data-testid="video-button" onClick={handleOpen}>
               Open Camera
             </button>
+            <button>Take photo</button>
           </section>
         );
       }}
