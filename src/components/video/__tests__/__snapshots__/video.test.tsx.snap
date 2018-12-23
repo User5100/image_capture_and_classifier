@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Video renders correctly 1`] = `
+<section>
+  <h2
+    data-testid="video-title"
+  >
+    Video Title
+  </h2>
+  <video
+    autoPlay={true}
+    className="video"
+    data-testid="video"
+    playsInline={true}
+  />
+  <button
+    data-testid="video-button"
+    onClick={[Function]}
+  >
+    Open Camera
+  </button>
+</section>
+`;
