@@ -6,3 +6,7 @@
   height: calc(var(--width) * 0.75);
   object-fit: contain;
 }
+
+.canvas {
+  display: none;
+}

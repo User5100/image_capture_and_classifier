@@ -29,4 +29,9 @@ describe("Video", () => {
     const { getByText } = render(<UI />);
     expect(getByText(/Take Photo/i)).toBeTruthy();
   });
+
+  test("Renders a canvas element", () => {
+    const { getByTestId } = render(<UI />);
+    expect(getByTestId("canvas")).toBeTruthy();
+  });
 });

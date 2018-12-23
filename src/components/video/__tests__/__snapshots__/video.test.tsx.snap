@@ -13,6 +13,10 @@ exports[`Video renders correctly 1`] = `
     data-testid="video"
     playsInline={true}
   />
+  <canvas
+    className="canvas"
+    data-testid="canvas"
+  />
   <button
     data-testid="video-button"
     onClick={[Function]}

@@ -16,6 +16,7 @@ function UI() {
               autoPlay={true}
               playsInline={true}
             />
+            <canvas data-testid="canvas" className={styles.canvas} />
             {errorMessage ? <p>{errorMessage}</p> : null}
             <button data-testid="video-button" onClick={handleOpen}>
               Open Camera
